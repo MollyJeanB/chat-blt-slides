@@ -1,0 +1,16 @@
+{
+  "name": "chat-blt-slides",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.40.14",
+    "@slidev/theme-bricks": "^0.0.2",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "slidev-theme-dracula": "^0.1.0"
+  }
+}
