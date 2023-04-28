@@ -45,11 +45,15 @@ layout: default
 
 ### 🥓🥬🍅
 
+## To Dos
 * Rough dupe of ChatGPT intro page
 * Form that consists of a single text input and button, and can be submitted via the return key
 * comment list component that displays the users input, followed by the "AI response" (randomized string from an array)
 * text animation on each new response
 * ability to reset state and start new conversation via a button (non-critical stretch goal)
+
+## Stack
+* React + TypeScript + CSS Modules via my Next.js boilerplate
 ---
 layout: default
 ---
@@ -72,5 +76,26 @@ function updateUser(id: number, update: User) {
   saveUser(id, newUser)
 }
 ```
+---
+layout: default
+---
 
+# Some Fun I Had Along the Way
+
+* Fun with SVGs
+
+```ts {all|2|1-6|9|all}
+interface User {
+  id: number
+  firstName: string
+  lastName: string
+  role: string
+}
+
+function updateUser(id: number, update: User) {
+  const user = getUser(id)
+  const newUser = { ...user, ...update }
+  saveUser(id, newUser)
+}
+```
 

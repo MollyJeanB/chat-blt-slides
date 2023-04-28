@@ -1,4 +1,4 @@
-# ChatBLT Slides
+# ChatBLT Slides  🥓🥬🍅
 
 ## Empathetech Show & Tell presentation for [ChatBLT](https://github.com/MollyJeanB/chat-blt).
 
